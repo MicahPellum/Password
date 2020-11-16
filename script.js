@@ -43,10 +43,33 @@ function generatePassword  () {
   console.log(finalPasswordArray)
 }
  if (symbolsInput === true) {
-    shuffle(array)
+  var randomIndex= Math.floor(Math.random() * 10)
+    numbers.concat(symbolsInput)
+    console.log(symbols)
+    finalPasswordArray .push(symbols[randomIndex])
+    console.log(FinalPasswordArray)
  }
 
+ if (lowercaseInput === true) {
+  var randomIndex= Math.floor(Math.random() * 10)
+   lowercase.concat(numbersInput, symbolsInput)
+   console.log(lowercase)
+   finalPasswordArray .push(lowercase[randomIndex])
+    console.log(FinalPasswordArray)
 
+ }
+ if (uppercaseInput === true) {
+  var randomIndex= Math.floor(Math.random() * 10)
+  uppercase.concat(numbersInput, symbolsInput, lowercaseInput)
+  console.log(uppercase)
+  finalPasswordArray .push(uppercase[randomIndex])
+   console.log(FinalPasswordArray)
+
+}
+
+ for (var i = 0; i < length; i++) {
+  if (length > lengthInput);
+}
 
 
 
